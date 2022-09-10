@@ -23,3 +23,8 @@
 > 
 > Nếu không set Owner password thì ngay cả khi file PDF được bảo vệ bởi user password, người dùng vẫn có thể remove user password khỏi file PDF được.
 - Sau khi chạy xong script, các file PDF có set password sẽ được tạo trong folder `\output` ở cùng thư mục.
+
+# Tải file scripts về
+- Ở trang này, chọn "Code", nhấn "Download as zip" để tải scripts về.
+![image](https://user-images.githubusercontent.com/11418231/189481967-ad173106-e522-4a68-944a-e4b40449adf6.png)
+
