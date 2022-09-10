@@ -13,6 +13,7 @@
 - Chọn file `./ExcelToPDF.ps1`, nhấn chuột phải và chọn `Run with Powershell`.
 - Enter "Y" nếu được hỏi "Execution Policy Changes".
 - Sau khi chạy xong script, các file PDF sẽ được tạo từ các file Excels cùng tên, trong cùng folder.
+> [Tham khảo bài viết có script gốc ở blog này](https://devblogs.microsoft.com/scripting/save-a-microsoft-excel-workbook-as-a-pdf-file-by-using-powershell/)
 
 # Bulk set password to PDF
 - Mở file Passwords.csv bằng Excel. Điền tên các file Excel và password.của từng file vào trong 2 cột Name và Password và lưu lại thay đổi. 
