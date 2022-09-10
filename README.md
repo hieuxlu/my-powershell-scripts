@@ -19,10 +19,11 @@
 - Mở file Passwords.csv bằng Excel. Điền tên các file Excel và password.của từng file vào trong 2 cột Name và Password và lưu lại thay đổi. 
 - Chọn file `./EncyptPDF.ps1` nhấn chuột phải và chọn `Run with Powershell`.
 - Enter "Y" nếu được hỏi "Execution Policy Changes".
-- Khi được hỏi `"Enter an owner password"`, nhập owner password. Lưu ý: owner password không được trùng với các passwords trong file csv. (File nào bị trùng password với owner password thì sẽ không tạo được PDF output)
+- Khi được hỏi `"Enter an owner password"`, nhập owner password.
 > Owner password được dùng để remove user password khỏi các file PDF.
 > 
 > Nếu không set Owner password thì ngay cả khi file PDF được bảo vệ bởi user password, người dùng vẫn có thể remove user password khỏi file PDF được.
+- Lưu ý: owner password không được trùng với các passwords trong file csv. (File nào bị trùng password với owner password thì sẽ không tạo được PDF output)
 - Sau khi chạy xong script, các file PDF có set password sẽ được tạo trong folder `\output` ở cùng thư mục.
 
 # Tải file scripts về
